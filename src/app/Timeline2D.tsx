@@ -178,8 +178,11 @@ export default function Figure2() {
       <h1 className="text-lg font-bold text-center text-gray-900 mb-0.5">
         LLM in EDA: Temporal Maturity Evolution
       </h1>
+      <p className="text-xs text-gray-400 text-center mb-0.5">
+        46 surveyed papers · May 2023 – Feb 2026
+      </p>
       <p className="text-xs text-gray-400 text-center mb-4">
-        46 surveyed papers · Jun 2023 – Feb 2026
+        Papers categorised across ranks, points sharing same rank are offset for clarity only
       </p>
 
       <div>
