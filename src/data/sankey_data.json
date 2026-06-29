@@ -1,0 +1,1336 @@
+{
+  "papers": [
+    {
+      "name": "VeriPPA",
+      "type": "LLM Pipeline",
+      "method": "RAG & ICL",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VeriPPA",
+      "type": "LLM Pipeline",
+      "method": "RAG & ICL",
+      "function": "Code Repair",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VeriPPA",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VeriPPA",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "Code Repair",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VeriPPA",
+      "type": "LLM Pipeline",
+      "method": "Task Structuring",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VeriPPA",
+      "type": "LLM Pipeline",
+      "method": "Task Structuring",
+      "function": "Code Repair",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "AutoChip v2",
+      "type": "LLM Pipeline",
+      "method": "Design Space Exploration",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "AutoChip v2",
+      "type": "LLM Pipeline",
+      "method": "Design Space Exploration",
+      "function": "Code Repair",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "AutoChip v2",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "AutoChip v2",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "Code Repair",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "CodeGen",
+      "type": "Benchmark",
+      "method": "Eval. Suite",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "CodeGen",
+      "type": "Benchmark",
+      "method": "Eval. Suite",
+      "function": "Dataset Construction",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "CodeGen",
+      "type": "Benchmark",
+      "method": "Pre-training & SFT",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "CodeGen",
+      "type": "Benchmark",
+      "method": "Pre-training & SFT",
+      "function": "Dataset Construction",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "ChatEDA",
+      "type": "LLM Adaptation",
+      "method": "Task Structuring",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "ChatEDA",
+      "type": "LLM Adaptation",
+      "method": "Task Structuring",
+      "function": "EDA Script Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "ChatEDA",
+      "type": "LLM Adaptation",
+      "method": "Pre-training & SFT",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "ChatEDA",
+      "type": "LLM Adaptation",
+      "method": "Pre-training & SFT",
+      "function": "EDA Script Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "ChatEDA",
+      "type": "LLM Adaptation",
+      "method": "Data Aug.",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "ChatEDA",
+      "type": "LLM Adaptation",
+      "method": "Data Aug.",
+      "function": "EDA Script Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "ChipGPT",
+      "type": "LLM Pipeline",
+      "method": "RAG & ICL",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "ChipGPT",
+      "type": "LLM Pipeline",
+      "method": "Task Structuring",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "ChipGPT",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "ChipGPT",
+      "type": "LLM Pipeline",
+      "method": "Design Space Exploration",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "ChipNeMo",
+      "type": "LLM Adaptation",
+      "method": "Pre-training & SFT",
+      "function": "RTL Generation",
+      "evalType": "syntactic",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "ChipNeMo",
+      "type": "LLM Adaptation",
+      "method": "Pre-training & SFT",
+      "function": "EDA Script Generation",
+      "evalType": "syntactic",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "ChipNeMo",
+      "type": "LLM Adaptation",
+      "method": "Pre-training & SFT",
+      "function": "Code Repair",
+      "evalType": "syntactic",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "ChipNeMo",
+      "type": "LLM Adaptation",
+      "method": "RAG & ICL",
+      "function": "RTL Generation",
+      "evalType": "syntactic",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "ChipNeMo",
+      "type": "LLM Adaptation",
+      "method": "RAG & ICL",
+      "function": "EDA Script Generation",
+      "evalType": "syntactic",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "ChipNeMo",
+      "type": "LLM Adaptation",
+      "method": "RAG & ICL",
+      "function": "Code Repair",
+      "evalType": "syntactic",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "ChipSeek-R1",
+      "type": "LLM Adaptation",
+      "method": "Pre-training & SFT",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "ChipSeek-R1",
+      "type": "LLM Adaptation",
+      "method": "RL",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "ChipSeek-R1",
+      "type": "LLM Adaptation",
+      "method": "Design Space Exploration",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "CircuitMind",
+      "type": "LLM Pipeline",
+      "method": "LLM Multi-Agency",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Orchestrator"
+    },
+    {
+      "name": "CircuitMind",
+      "type": "LLM Pipeline",
+      "method": "RAG & ICL",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Orchestrator"
+    },
+    {
+      "name": "CircuitMind",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Orchestrator"
+    },
+    {
+      "name": "CROP",
+      "type": "LLM Pipeline",
+      "method": "RAG & ICL",
+      "function": "EDA Script Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "CROP",
+      "type": "LLM Pipeline",
+      "method": "Task Structuring",
+      "function": "EDA Script Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "CROP",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "EDA Script Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "CROP",
+      "type": "LLM Pipeline",
+      "method": "Design Space Exploration",
+      "function": "EDA Script Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "Data is all you need",
+      "type": "LLM Adaptation",
+      "method": "Data Aug.",
+      "function": "Dataset Construction",
+      "evalType": "syntactic",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "Data is all you need",
+      "type": "LLM Adaptation",
+      "method": "Data Aug.",
+      "function": "RTL Generation",
+      "evalType": "syntactic",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "Data is all you need",
+      "type": "LLM Adaptation",
+      "method": "Data Aug.",
+      "function": "Code Repair",
+      "evalType": "syntactic",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "Data is all you need",
+      "type": "LLM Adaptation",
+      "method": "Data Aug.",
+      "function": "EDA Script Generation",
+      "evalType": "syntactic",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "Data is all you need",
+      "type": "LLM Adaptation",
+      "method": "Pre-training & SFT",
+      "function": "Dataset Construction",
+      "evalType": "syntactic",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "Data is all you need",
+      "type": "LLM Adaptation",
+      "method": "Pre-training & SFT",
+      "function": "RTL Generation",
+      "evalType": "syntactic",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "Data is all you need",
+      "type": "LLM Adaptation",
+      "method": "Pre-training & SFT",
+      "function": "Code Repair",
+      "evalType": "syntactic",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "Data is all you need",
+      "type": "LLM Adaptation",
+      "method": "Pre-training & SFT",
+      "function": "EDA Script Generation",
+      "evalType": "syntactic",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "Data is all you need",
+      "type": "LLM Adaptation",
+      "method": "Task Structuring",
+      "function": "Dataset Construction",
+      "evalType": "syntactic",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "Data is all you need",
+      "type": "LLM Adaptation",
+      "method": "Task Structuring",
+      "function": "RTL Generation",
+      "evalType": "syntactic",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "Data is all you need",
+      "type": "LLM Adaptation",
+      "method": "Task Structuring",
+      "function": "Code Repair",
+      "evalType": "syntactic",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "Data is all you need",
+      "type": "LLM Adaptation",
+      "method": "Task Structuring",
+      "function": "EDA Script Generation",
+      "evalType": "syntactic",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "DeepRTL",
+      "type": "LLM Adaptation",
+      "method": "Pre-training & SFT",
+      "function": "Dataset Construction",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "DeepRTL",
+      "type": "LLM Adaptation",
+      "method": "Pre-training & SFT",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "DeepRTL",
+      "type": "LLM Adaptation",
+      "method": "Task Structuring",
+      "function": "Dataset Construction",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "DeepRTL",
+      "type": "LLM Adaptation",
+      "method": "Task Structuring",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "DeepRTL",
+      "type": "LLM Adaptation",
+      "method": "Eval. Suite",
+      "function": "Dataset Construction",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "DeepRTL",
+      "type": "LLM Adaptation",
+      "method": "Eval. Suite",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "GPT4AIGChip",
+      "type": "LLM Pipeline",
+      "method": "RAG & ICL",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "GPT4AIGChip",
+      "type": "LLM Pipeline",
+      "method": "Task Structuring",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "GPT4AIGChip",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "HDLxGraph",
+      "type": "LLM Pipeline",
+      "method": "RAG & ICL",
+      "function": "Code Repair",
+      "evalType": "syntactic",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "HDLxGraph",
+      "type": "LLM Pipeline",
+      "method": "RAG & ICL",
+      "function": "Dataset Construction",
+      "evalType": "syntactic",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "HDLxGraph",
+      "type": "LLM Pipeline",
+      "method": "Task Structuring",
+      "function": "Code Repair",
+      "evalType": "syntactic",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "HDLxGraph",
+      "type": "LLM Pipeline",
+      "method": "Task Structuring",
+      "function": "Dataset Construction",
+      "evalType": "syntactic",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "HiVeGen",
+      "type": "LLM Pipeline",
+      "method": "Task Structuring",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "HiVeGen",
+      "type": "LLM Pipeline",
+      "method": "LLM Multi-Agency",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "HiVeGen",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "HiVeGen",
+      "type": "LLM Pipeline",
+      "method": "Design Space Exploration",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "Make Every Move Count",
+      "type": "LLM Pipeline",
+      "method": "Design Space Exploration",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "Make Every Move Count",
+      "type": "LLM Pipeline",
+      "method": "RL",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "Make Every Move Count",
+      "type": "LLM Pipeline",
+      "method": "Task Structuring",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "ResBench",
+      "type": "Benchmark",
+      "method": "Eval. Suite",
+      "function": "Dataset Construction",
+      "evalType": "ppa",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "ResBench",
+      "type": "Benchmark",
+      "method": "Data Aug.",
+      "function": "Dataset Construction",
+      "evalType": "ppa",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "RTLLM v1",
+      "type": "Benchmark",
+      "method": "Eval. Suite",
+      "function": "Dataset Construction",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "RTLLM v1",
+      "type": "Benchmark",
+      "method": "Task Structuring",
+      "function": "Dataset Construction",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "RTLRewriter",
+      "type": "LLM Pipeline",
+      "method": "Design Space Exploration",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "RTLRewriter",
+      "type": "LLM Pipeline",
+      "method": "RAG & ICL",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "RTLRewriter",
+      "type": "LLM Pipeline",
+      "method": "Task Structuring",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "RTLSquad",
+      "type": "LLM Pipeline",
+      "method": "LLM Multi-Agency",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "RTLSquad",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "Towards LLM-based Root Cause Analysis of Hardware Design Failures",
+      "type": "Benchmark",
+      "method": "RAG & ICL",
+      "function": "Code Repair",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "Towards LLM-based Root Cause Analysis of Hardware Design Failures",
+      "type": "Benchmark",
+      "method": "Eval. Suite",
+      "function": "Code Repair",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "VeriOpt",
+      "type": "LLM Pipeline",
+      "method": "LLM Multi-Agency",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VeriOpt",
+      "type": "LLM Pipeline",
+      "method": "RAG & ICL",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VeriOpt",
+      "type": "LLM Pipeline",
+      "method": "Task Structuring",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VeriOpt",
+      "type": "LLM Pipeline",
+      "method": "Design Space Exploration",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VFocus",
+      "type": "LLM Pipeline",
+      "method": "RAG & ICL",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VFocus",
+      "type": "LLM Pipeline",
+      "method": "RAG & ICL",
+      "function": "Simulation & Verification",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VFocus",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VFocus",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "Simulation & Verification",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VFocus",
+      "type": "LLM Pipeline",
+      "method": "Task Structuring",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VFocus",
+      "type": "LLM Pipeline",
+      "method": "Task Structuring",
+      "function": "Simulation & Verification",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "Chip-Chat",
+      "type": "LLM Pipeline",
+      "method": "Task Structuring",
+      "function": "RTL Generation",
+      "evalType": "syntactic",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "AutoSilicon",
+      "type": "LLM Pipeline",
+      "method": "LLM Multi-Agency",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Orchestrator"
+    },
+    {
+      "name": "AutoSilicon",
+      "type": "LLM Pipeline",
+      "method": "Task Structuring",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Orchestrator"
+    },
+    {
+      "name": "AutoSilicon",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Orchestrator"
+    },
+    {
+      "name": "VeriPrefer",
+      "type": "LLM Adaptation",
+      "method": "RL",
+      "function": "Simulation & Verification",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "VeriPrefer",
+      "type": "LLM Adaptation",
+      "method": "Pre-training & SFT",
+      "function": "Simulation & Verification",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "VeriPrefer",
+      "type": "LLM Adaptation",
+      "method": "Feedback Looped",
+      "function": "Simulation & Verification",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "VeriSeek",
+      "type": "LLM Adaptation",
+      "method": "RL",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "VeriSeek",
+      "type": "LLM Adaptation",
+      "method": "Pre-training & SFT",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "MCP4EDA",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "EDA Script Generation",
+      "evalType": "ppa",
+      "llmRole": "Orchestrator"
+    },
+    {
+      "name": "MCP4EDA",
+      "type": "LLM Pipeline",
+      "method": "RAG & ICL",
+      "function": "EDA Script Generation",
+      "evalType": "ppa",
+      "llmRole": "Orchestrator"
+    },
+    {
+      "name": "MCP4EDA",
+      "type": "LLM Pipeline",
+      "method": "Design Space Exploration",
+      "function": "EDA Script Generation",
+      "evalType": "ppa",
+      "llmRole": "Orchestrator"
+    },
+    {
+      "name": "VeriMind",
+      "type": "LLM Pipeline",
+      "method": "LLM Multi-Agency",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VeriMind",
+      "type": "LLM Pipeline",
+      "method": "Task Structuring",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VeriMind",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "RTLFixer",
+      "type": "LLM Pipeline",
+      "method": "RAG & ICL",
+      "function": "Code Repair",
+      "evalType": "syntactic",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "RTLFixer",
+      "type": "LLM Pipeline",
+      "method": "Task Structuring",
+      "function": "Code Repair",
+      "evalType": "syntactic",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "RTLFixer",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "Code Repair",
+      "evalType": "syntactic",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VerilogCoder",
+      "type": "LLM Pipeline",
+      "method": "LLM Multi-Agency",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VerilogCoder",
+      "type": "LLM Pipeline",
+      "method": "LLM Multi-Agency",
+      "function": "Code Repair",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VerilogCoder",
+      "type": "LLM Pipeline",
+      "method": "Task Structuring",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VerilogCoder",
+      "type": "LLM Pipeline",
+      "method": "Task Structuring",
+      "function": "Code Repair",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VerilogCoder",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VerilogCoder",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "Code Repair",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "MAGE",
+      "type": "LLM Pipeline",
+      "method": "LLM Multi-Agency",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Orchestrator"
+    },
+    {
+      "name": "MAGE",
+      "type": "LLM Pipeline",
+      "method": "LLM Multi-Agency",
+      "function": "Simulation & Verification",
+      "evalType": "functional",
+      "llmRole": "Orchestrator"
+    },
+    {
+      "name": "MAGE",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Orchestrator"
+    },
+    {
+      "name": "MAGE",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "Simulation & Verification",
+      "evalType": "functional",
+      "llmRole": "Orchestrator"
+    },
+    {
+      "name": "RealBench",
+      "type": "Benchmark",
+      "method": "Eval. Suite",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "RealBench",
+      "type": "Benchmark",
+      "method": "Feedback Looped",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "RTL Agent",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "RTL Agent",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "Code Repair",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "RTL Agent",
+      "type": "LLM Pipeline",
+      "method": "LLM Multi-Agency",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "RTL Agent",
+      "type": "LLM Pipeline",
+      "method": "LLM Multi-Agency",
+      "function": "Code Repair",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VeriGRAG",
+      "type": "LLM Adaptation",
+      "method": "RAG & ICL",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "CraftRTL",
+      "type": "LLM Adaptation",
+      "method": "Data Aug.",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "CraftRTL",
+      "type": "LLM Adaptation",
+      "method": "Data Aug.",
+      "function": "Code Repair",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "CraftRTL",
+      "type": "LLM Adaptation",
+      "method": "Pre-training & SFT",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "CraftRTL",
+      "type": "LLM Adaptation",
+      "method": "Pre-training & SFT",
+      "function": "Code Repair",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "TuRTLe",
+      "type": "Benchmark",
+      "method": "Eval. Suite",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "AIvril2",
+      "type": "LLM Pipeline",
+      "method": "LLM Multi-Agency",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "AIvril2",
+      "type": "LLM Pipeline",
+      "method": "LLM Multi-Agency",
+      "function": "Simulation & Verification",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "AIvril2",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "AIvril2",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "Simulation & Verification",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VeriPPAv2",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VeriPPAv2",
+      "type": "LLM Pipeline",
+      "method": "RAG & ICL",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VeriPPAv2",
+      "type": "LLM Pipeline",
+      "method": "Design Space Exploration",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "VeriGen",
+      "type": "LLM Adaptation",
+      "method": "Pre-training & SFT",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "ACE-RTL",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "ACE-RTL",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "Code Repair",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "ACE-RTL",
+      "type": "LLM Pipeline",
+      "method": "Pre-training & SFT",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "ACE-RTL",
+      "type": "LLM Pipeline",
+      "method": "Pre-training & SFT",
+      "function": "Code Repair",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "ACE-RTL",
+      "type": "LLM Pipeline",
+      "method": "LLM Multi-Agency",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "ACE-RTL",
+      "type": "LLM Pipeline",
+      "method": "LLM Multi-Agency",
+      "function": "Code Repair",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "AutoEDA",
+      "type": "LLM Pipeline",
+      "method": "Task Structuring",
+      "function": "EDA Script Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "AutoEDA",
+      "type": "LLM Pipeline",
+      "method": "RAG & ICL",
+      "function": "EDA Script Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "AiEDA",
+      "type": "LLM Pipeline",
+      "method": "LLM Multi-Agency",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "AiEDA",
+      "type": "LLM Pipeline",
+      "method": "RAG & ICL",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "AiEDA",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "AiEDA",
+      "type": "LLM Pipeline",
+      "method": "Design Space Exploration",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "CVDP",
+      "type": "Benchmark",
+      "method": "Eval. Suite",
+      "function": "Dataset Construction",
+      "evalType": "functional",
+      "llmRole": "Generator"
+    },
+    {
+      "name": "LaMDA",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "EDA Script Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "LaMDA",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "LaMDA",
+      "type": "LLM Pipeline",
+      "method": "RAG & ICL",
+      "function": "EDA Script Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "LaMDA",
+      "type": "LLM Pipeline",
+      "method": "RAG & ICL",
+      "function": "RTL Generation",
+      "evalType": "ppa",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "AutoChip",
+      "type": "LLM Pipeline",
+      "method": "Feedback Looped",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "AutoChip",
+      "type": "LLM Pipeline",
+      "method": "RAG & ICL",
+      "function": "RTL Generation",
+      "evalType": "functional",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "EDAid",
+      "type": "LLM Pipeline",
+      "method": "LLM Multi-Agency",
+      "function": "EDA Script Generation",
+      "evalType": "syntactic",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "EDAid",
+      "type": "LLM Pipeline",
+      "method": "Task Structuring",
+      "function": "EDA Script Generation",
+      "evalType": "syntactic",
+      "llmRole": "Agent"
+    },
+    {
+      "name": "EDAid",
+      "type": "LLM Pipeline",
+      "method": "Pre-training & SFT",
+      "function": "EDA Script Generation",
+      "evalType": "syntactic",
+      "llmRole": "Agent"
+    }
+  ],
+  "orderedFunctions": [
+    "Code Repair",
+    "Dataset Construction",
+    "EDA Script Generation",
+    "RTL Generation",
+    "Simulation & Verification"
+  ],
+  "orderedMethods": [
+    "Design Space Exploration",
+    "Data Aug.",
+    "Eval. Suite",
+    "Feedback Looped",
+    "LLM Multi-Agency",
+    "Pre-training & SFT",
+    "RAG & ICL",
+    "RL",
+    "Task Structuring"
+  ],
+  "orderedTypes": [
+    "Benchmark",
+    "LLM Adaptation",
+    "LLM Pipeline"
+  ],
+  "orderedRoles": [
+    "Generator",
+    "Agent",
+    "Orchestrator"
+  ]
+}
