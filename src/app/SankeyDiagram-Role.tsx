@@ -1,12 +1,42 @@
 import React, { useState, useMemo } from 'react';
 import sankeyDataImport from '../data/sankey_data.json';
 import nodeDescriptionsImport from '../node_descriptions.json';
+import paperUrlsImport from '../data/paper_urls.json';
+
+// Map of paper nickname (and full title) -> source URL, derived from URL_for_Sankey.csv
+const PAPER_URLS: Record<string, string> = paperUrlsImport as Record<string, string>;
 
 // Fallback Card components (reused from original)
 const Card = ({ children, className = '' }: { children: React.ReactNode; className?: string }) => <div className={className}>{children}</div>;
 const CardHeader = ({ children, className = '' }: { children: React.ReactNode; className?: string }) => <div className={className}>{children}</div>;
 const CardTitle = ({ children, className = '' }: { children: React.ReactNode; className?: string }) => <div className={className}>{children}</div>;
 const CardContent = ({ children, className = '' }: { children: React.ReactNode; className?: string }) => <div className={className}>{children}</div>;
+
+// Renders a paper entry in the side panel. If the paper has a known URL it becomes
+// a clickable link that opens the paper's webpage in a new tab; otherwise it renders
+// as plain text. Used for both flow and node paper lists.
+const PaperItem = ({ paper }: { paper: string }) => {
+    const url = PAPER_URLS[paper];
+    const baseClass = "block text-sm p-2 bg-slate-50 rounded border border-slate-100 transition-colors";
+    if (url) {
+        return (
+            <a
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={`Open ${paper} (${url})`}
+                className={`${baseClass} text-blue-600 hover:text-blue-800 hover:border-blue-300 hover:bg-blue-50 underline cursor-pointer`}
+            >
+                {paper}
+            </a>
+        );
+    }
+    return (
+        <div className={`${baseClass} text-slate-600 hover:border-blue-200`}>
+            {paper}
+        </div>
+    );
+};
 
 interface Paper {
     name: string;
@@ -821,9 +851,7 @@ const SankeyDiagramVertical = () => {
                                     <div className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Papers ({flowDetails.count})</div>
                                     <div className="space-y-1 max-h-[300px] overflow-y-auto pr-1">
                                         {flowDetails.papers.map((paper, idx) => (
-                                            <div key={idx} className="text-sm text-slate-600 p-2 bg-slate-50 rounded border border-slate-100 hover:border-blue-200 transition-colors">
-                                                {paper}
-                                            </div>
+                                            <PaperItem key={idx} paper={paper} />
                                         ))}
                                     </div>
                                 </div>
@@ -867,9 +895,7 @@ const SankeyDiagramVertical = () => {
                                                     // @ts-ignore
                                                     const papers = nodeCounts[key][nodeName] || [];
                                                     return papers.map((paper: string, idx: number) => (
-                                                        <div key={idx} className="text-sm text-slate-600 p-2 bg-slate-50 rounded border border-slate-100 hover:border-blue-200 transition-colors">
-                                                            {paper}
-                                                        </div>
+                                                        <PaperItem key={idx} paper={paper} />
                                                     ));
                                                 })()}
                                             </div>
